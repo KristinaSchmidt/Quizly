@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.exceptions import TokenError
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from .functions import (
+from ..functions import (
     blacklist_refresh_token,
     clear_auth_cookies,
     set_auth_cookie,
